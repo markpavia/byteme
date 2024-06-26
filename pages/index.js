@@ -21,9 +21,9 @@ export default function Home() {
         <CTA />
       </GradientWrapper>
       <ToolKit />
-      <GradientWrapper>
-        <Testimonials />
-      </GradientWrapper>
+      {/*<GradientWrapper>*/}
+      {/*  <Testimonials />*/}
+      {/*</GradientWrapper>*/}
       <FooterCTA />
     </>
   );
