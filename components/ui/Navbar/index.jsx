@@ -73,7 +73,7 @@ const Navbar = () => {
                             <li>
                                 <NavLink
                                     href="/get-started"
-                                    className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
+                                    className="block font-medium text-sm text-white bg-green-600 hover:bg-green-700 active:bg-green-800 md:inline"
                                 >
                                     Let's work
                                 </NavLink>

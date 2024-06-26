@@ -13,7 +13,7 @@ const FooterCTA = () => (
                 </p>
                 <NavLink
                     href="/get-started"
-                    className="mt-4 inline-block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900"
+                    className="mt-4 inline-block font-medium text-sm text-white bg-green-600 hover:bg-green-700 active:bg-green-800"
                 >
                     Start building
                 </NavLink>
