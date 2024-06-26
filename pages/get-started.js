@@ -14,25 +14,26 @@ export default function GetStarted() {
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact us - ByteMe Web Dev</title>
       </Head>
       <div className='pt-28 pb-12'>
         <div className='custom-screen text-gray-600'>
           <div className='max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none'>
             <div className='max-w-lg sm:text-center lg:text-left'>
               <h1 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                Talk to a Blinder expert
+                Talk to a ByteMe expert
               </h1>
               <p className='mt-3'>
                 We are here to help. Get in touch with sales our press team and
-                let us know how we can help, or shoot us an email on{" "}
-                <a
-                  href='mailto:support@blinder.com'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='text-indigo-600 hover:text-indigo-400 font-medium duration-150'>
-                  support@blinder.com.
-                </a>
+                let us know how we can help.
+                {/*, or shoot us an email on{" "}*/}
+                {/*<a*/}
+                {/*  href='mailto:support@blinder.com'*/}
+                {/*  target='_blank'*/}
+                {/*  rel='noreferrer'*/}
+                {/*  className='text-indigo-600 hover:text-indigo-400 font-medium duration-150'>*/}
+                {/*  support@blinder.com.*/}
+                {/*</a>*/}
               </p>
             </div>
             <div className='flex-1 mt-12 sm:max-w-lg lg:max-w-md lg:mt-0'>
