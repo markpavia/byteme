@@ -1,19 +1,19 @@
 import SectionWrapper from "../../SectionWrapper"
 import Image from "next/image"
-import wordpress from "../../../public/icons/wordpress.svg"
 import nextjs from "../../../public/icons/nextjs.svg"
 import tailwind from "../../../public/icons/tailwind.svg"
-import nodejs from "../../../public/icons/nodejs.svg"
-import vercel from "../../../public/icons/vercel.svg"
 import figma from "../../../public/icons/figma.svg"
+import laravel from "../../../public/icons/laravel.svg"
+import alpine from "../../../public/icons/alpine.svg"
+import aws from "../../../public/icons/aws.svg"
 
 const ToolKit = () => {
 
     const features = [
         {
-            icon: wordpress,
-            title: "Wordpress",
-            desc: "WordPress is an open-source content management system (CMS)."
+            icon: laravel,
+            title: "Laravel",
+            desc: "Laravel is a web application framework with expressive, elegant syntax."
         },
         {
             icon: nextjs,
@@ -26,14 +26,14 @@ const ToolKit = () => {
             desc: "Tailwind CSS is basically a utility-first CSS framework for rapidly building UIs."
         },
         {
-            icon: nodejs,
-            title: "Node.js",
-            desc: "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment."
+            icon: alpine,
+            title: "Alpine.js",
+            desc: "Alpine.js is a lightweight JavaScript framework that allows you to build interactive and reactive web applications."
         },
         {
-            icon: vercel,
-            title: "Vercel",
-            desc: "Vercel is a cloud platform that enables developers to host web apps."
+            icon: aws,
+            title: "AWS",
+            desc: "AWS is a comprehensive and widely used cloud computing platform offered by Amazon."
         },
         {
             icon: figma,
@@ -59,7 +59,7 @@ const ToolKit = () => {
                             features.map((item, idx) => (
                                 <li key={idx} className="flex gap-x-4">
                                     <div className="flex-none w-12 h-12 gradient-border rounded-full flex items-center justify-center">
-                                        <Image src={item.icon} alt={item.title} />
+                                        <Image src={item.icon} alt={item.title} className="size-6" />
                                     </div>
                                     <div>
                                         <h4 className="text-lg text-gray-800 font-semibold">
